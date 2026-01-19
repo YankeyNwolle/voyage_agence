@@ -41,4 +41,79 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #0000ff;
+    text-decoration: none;
+}
+
+.reserver {
+    background-color: #4169E1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.reserver:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+/* main page */
+
+.main_page {
+    background-image: url('../image/background_page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    padding: 10px 15%;
+    margin: 10px 50px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.main_page h2 {
+    font-size: 3.9rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.main_page h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.search {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search img {
+    color: #0000ff;
+}
+
+input {
+    width: 200px;
+    height: auto;
+    border: none;
+}
+
+input::placeholder {
+  color:darkgray;
+  font-size: 1.2em;
+}
+
+.btn-primary {
+    background-color: #4169E1;
+    font-size: 18px;
+    padding: 10 15%;
 }
