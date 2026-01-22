@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata', monospace;
+    scroll-behavior: smooth;
 }
 
 /* header */
@@ -213,4 +214,45 @@ input::placeholder {
   width: 200px; 
   margin: 0 auto; 
   text-align: center; 
+}
+
+.all_destination {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.all_destination a {
+    padding: 10px 15px;
+    background-color: #9A9A9A;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.all_destination a:hover {
+    color: #FEFFFE;
+    background-color: #0000ff;
+}
+
+/* section inscription */
+
+.inscription {
+    margin-top: 5%;
+    background-color: #D1DCEE;
+    padding-left: 10%;
+}
+
+.inscription h2 {
+    padding-top: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.inscription h4 {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.2;
 }
